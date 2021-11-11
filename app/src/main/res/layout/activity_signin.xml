@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical">
+
+
+    <TextView
+        android:id="@+id/tv_idname"
+        android:layout_width="95dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="10dp"
+        android:text="ID" />
+
+    <EditText
+        android:id="@+id/et_idname"
+        android:layout_width="142dp"
+        android:layout_height="44dp"
+        android:layout_margin ="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_pwname"
+        android:layout_width="118dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="10dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/et_pwname"
+        android:layout_width="142dp"
+        android:layout_height="44dp"
+        android:layout_margin ="10dp" />
+
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="signin"
+        android:text="SIGNIN"
+        android:layout_margin ="10dp" />
+
+</LinearLayout>
